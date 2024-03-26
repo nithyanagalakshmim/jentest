@@ -18,7 +18,7 @@ WebDriver driver;
 @BeforeMethod
 public void setup() {
 
-System.setProperty("webdriver.edge.driver", "C:\Users\nithya.m\Downloads\edgedriver_win64\msedgedriver.exe");	
+System.setProperty("webdriver.edge.driver", "C:\\Users\\nithya.m\\Downloads\\edgedriver_win64\\msedgedriver.exe");	
     driver = new EdgeDriver();
 }
 
