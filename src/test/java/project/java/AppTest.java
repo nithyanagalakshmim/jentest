@@ -3,7 +3,7 @@ package project.java;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,8 +14,8 @@ WebDriver driver;
 
 @BeforeMethod
 public void setup() {
-   System.setProperty("webdriver.gecko.driver", "C:\\Users\\nithya.m\\geckodriver-v0.34.0-win64\\geckodriver.exe");
-        driver = new FirefoxDriver();
+   
+        driver = new EdgeDriver();
     
 }
 
