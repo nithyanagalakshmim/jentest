@@ -1,5 +1,7 @@
 package project.java;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,11 +16,8 @@ WebDriver driver;
 
 @BeforeMethod
 public void setup() {
-   
-System.setProperty("webdriver.edge.driver", "C:\Users\nithya.m\Downloads\edgedriver_win64\msedgedriver.exe");
-        driver = new EdgeDriver();
-	
-    
+	System.setProperty("webdriver.edge.driver", "C:\\Users\\nithya.m\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+    driver = new EdgeDriver();
 }
 
 		@Test
@@ -84,4 +83,12 @@ System.setProperty("webdriver.edge.driver", "C:\Users\nithya.m\Downloads\edgedri
 	
 
 }
+
+
+	
+		
+		
+	
+
+
 
