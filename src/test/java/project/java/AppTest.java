@@ -5,7 +5,7 @@ package project.java;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
@@ -17,8 +17,9 @@ WebDriver driver;
 
 @BeforeMethod
 public void setup() {
-	
-    driver = new ChromeDriver();
+
+System.setProperty("webdriver.edge.driver", "C:\Users\nithya.m\Downloads\edgedriver_win64\msedgedriver.exe");	
+    driver = new EdgeDriver();
 }
 
 		@Test
